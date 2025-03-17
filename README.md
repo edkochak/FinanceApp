@@ -75,9 +75,6 @@
 ### Запуск приложения
 1. Клонируйте репозиторий
 2. Откройте терминал и перейдите в корневую директорию проекта:
-   ```
-   cd /Users/eduardaltsuler/Library/Mobile Documents/com~apple~CloudDocs/fcs/kpo/17.03/
-   ```
 3. Соберите проект:
    ```
    dotnet build FinanceApp.sln
@@ -93,9 +90,6 @@
 
 ### Запуск тестов
 1. Перейдите в корневую директорию проекта:
-   ```
-   cd /Users/eduardaltsuler/Library/Mobile Documents/com~apple~CloudDocs/fcs/kpo/17.03/
-   ```
 2. Запустите тесты:
    ```
    dotnet test

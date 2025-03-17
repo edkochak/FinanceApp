@@ -3,9 +3,9 @@
 echo "Очистка файлов сборки и временных файлов..."
 
 # Удаление папок и файлов сборки .NET
-find . -type d -name "bin" -exec rm -rf {} +
-find . -type d -name "obj" -exec rm -rf {} +
-find . -type d -name "TestResults" -exec rm -rf {} +
+find . -type d -name "bin" -exec rm -rf {} \;
+find . -type d -name "obj" -exec rm -rf {} \;
+find . -type d -name "TestResults" -exec rm -rf {} \;
 
 # Удаление файлов кэша и логов Visual Studio Code
 find . -name "*.suo" -delete
