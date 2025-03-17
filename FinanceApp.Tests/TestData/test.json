@@ -1,0 +1,14 @@
+[
+  {
+    "Type": "BankAccount",
+    "Id": 1,
+    "Name": "Test Account",
+    "Balance": 1000
+  },
+  {
+    "Type": "Category",
+    "Id": 2,
+    "CategoryType": "Income",
+    "Name": "Salary"
+  }
+]
